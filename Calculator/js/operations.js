@@ -3,7 +3,7 @@ function plus() {
     const display2 = document.getElementById('display2').value;
     const operator = document.getElementById('operator').value;
 
-    if (display2 === "") {
+    if (display2 === "") { 
         document.getElementById('display2').value = display1;
     } else if (operator !== "") {
         document.getElementById('display2').value = calculate(Number(display2), Number(display1), operator);
